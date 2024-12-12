@@ -1,4 +1,4 @@
-# Python Web Application Deployment Example
+# Python Web Application Deployment
 
 This project demonstrates a basic structure for a Python web application with deployment scripts. While it's a simplified version due to environment constraints, it shows the key concepts of a deployment pipeline.
 
