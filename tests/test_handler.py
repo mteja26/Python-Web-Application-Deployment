@@ -15,7 +15,7 @@ class TestAPIHandler(unittest.TestCase):
         self.assertEqual(data['status'], 'healthy')
         self.assertEqual(data['service'], Config.APP_NAME)
         self.assertEqual(data['version'], Config.VERSION)
-    
+        
     def test_not_found(self):
         response = self.handler.handle_not_found()
         data = json.loads(response['body'])
