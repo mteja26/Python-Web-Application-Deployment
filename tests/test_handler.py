@@ -6,7 +6,7 @@ from app.config import Config
 class TestAPIHandler(unittest.TestCase):
     def setUp(self):
         self.handler = APIHandler()
-    
+        
     def test_health_check(self):
         response = self.handler.handle_health_check()
         data = json.loads(response['body'])
