@@ -5,7 +5,7 @@ class TestConfig(unittest.TestCase):
     def test_development_config(self):
         self.assertTrue(Config.Development.DEBUG)
         self.assertEqual(Config.Development.PORT, 8000)
-        
+
     def test_production_config(self):
         self.assertFalse(Config.Production.DEBUG)
         self.assertEqual(Config.Production.PORT, 80)
